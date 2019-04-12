@@ -1,0 +1,25 @@
+{
+    "name": "wikedzi/oxcel",
+    "description": "This is a Simple Wrapper for PhpSpreadsheet package",
+    "keywords": ["Excel", "SpreadSheet", "package"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timothy Wikedzi",
+            "email": "twikedzi@gmail.com"
+        }
+    ],
+    "type": "project",
+    "require": {
+		"php": ">=7.1",
+        "phpoffice/phpspreadsheet": "^1.6"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wikedzi\\Oexcel\\": "src/"
+        }
+    }
+}
